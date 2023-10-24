@@ -64,6 +64,11 @@ center = (-50, -50)
 radius = 100
 draw_michener_circle(center, radius)
 
+center = (CENTER_ABSCISSA - 110, CENTER_ORDINATE + 110)
+radius = 100
+pg.draw.circle(SCREEN, (100, 100, 100), center, radius, 1)
+pg.display.flip()
+
 center = (200, 200)
 radius = 50
 draw_michener_circle(center, radius)
